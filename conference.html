@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +36,18 @@ Free Bootstrap 5 HTML Template
     </head>
     
     <body>
-
+<!-- Scripts do GTranslate -->
+    <script>
+        window.gtranslateSettings = {
+            "default_language":"pt",
+            "native_language_names":true,
+            "detect_browser_language":true,
+            "languages":["pt","en"],
+            "wrapper_selector":".gtranslate_wrapper"
+        };
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+	
        <header class="site-header">
             <div class="container">
                 <div class="row">
@@ -63,6 +74,8 @@ Free Bootstrap 5 HTML Template
 
                 </div>
             </div>
+	       	<!-- Local onde o widget GTranslate será exibido -->
+    <div class="gtranslate_wrapper"></div>
         </header>
 
         <nav class="navbar navbar-expand-lg">
